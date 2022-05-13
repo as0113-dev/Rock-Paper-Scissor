@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Gameplay</title>
+</head>
+
+<body>
+    <!-- for css background effects -->
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+
+    <h1>Rock Paper Scissor</h1>
+    <div class="container">
+        <div class="game-container">
+            <!-- To Keep Score -->
+            <div class="points">
+                <div>
+                    <label for="playerPoints">Player Points: </label><br>
+                    <span class="playerPoints">0</span>
+                </div>
+                <div>
+                    <label for="computerPoints">Computer Points: </label><br>
+                    <span class="computerPoints">0</span>
+                </div>
+            </div>
+
+            <!-- To see choices made with image -->
+            <div class="choices">
+                <div class="playerChoice">
+                    <img src="#" />
+                </div>
+                <div class="computerChoice">
+                    <img src="#" />
+                </div>
+            </div>
+
+            <!-- buttons to choose from -->
+            <div class="buttons">
+                <div>
+                    <button class="rock btn">Rock</button>
+                </div>
+                <div>
+                    <button class="paper btn">Paper</button>
+                </div>
+                <div>
+                    <button class="scissor btn">Scissor</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- loads js file -->
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>
